@@ -8,8 +8,8 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     public Rigidbody rb;
-    public float Dforce = 200;
-    public float Sforce = 500;
+    public float Dforce = 50;
+    public float Sforce = 50;
 
     void Start()
     {

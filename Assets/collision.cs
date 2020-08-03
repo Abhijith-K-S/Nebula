@@ -9,7 +9,7 @@ public class collision : MonoBehaviour
     {
         if(info.collider.tag == "obstacle")
         {
-            move.enabled = false;
+            
  
         }
         
