@@ -11,7 +11,7 @@ public class finishline : MonoBehaviour
     void OnTriggerEnter()
     {
         gameManager.win();
-        end.endgame();
+        endgame();
         
     }
 }

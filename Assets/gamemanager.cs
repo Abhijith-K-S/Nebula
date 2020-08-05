@@ -7,7 +7,8 @@ public class gamemanager : MonoBehaviour
 {
     bool status = false;
 
-    public GameObject complete; 
+    public GameObject complete;
+    public GameObject over;
 
     public void win()
     {
@@ -19,7 +20,8 @@ public class gamemanager : MonoBehaviour
         if(status == false)
         {
             status = true;
-            Restart();
+            over.SetActive(true);
+            
         }
         
     }

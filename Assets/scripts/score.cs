@@ -8,7 +8,14 @@ public class score : MonoBehaviour
 {
     public Transform player;
     public Text scoreText;
+    public string msg;
     bool finish = false;
+
+    public string returnfinalscore()
+    {
+            msg = scoreText.text;
+            return msg;
+    }
     
     public void endgame()
     {
