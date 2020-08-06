@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd5f480d3fa4e14abf27ea36c9580e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalscore: {fileID: 0}
+  finalscore: {fileID: 358009871}
   GetScore: {fileID: 0}
   tmp: 
 --- !u!1 &106145047
@@ -1107,7 +1107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &483490437
 RectTransform:
   m_ObjectHideFlags: 0

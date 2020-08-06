@@ -9,6 +9,7 @@ public class score : MonoBehaviour
     public Transform player;
     public Text scoreText;
     public string msg;
+
     bool finish = false;
 
     public string returnfinalscore()
@@ -17,17 +18,13 @@ public class score : MonoBehaviour
             return msg;
     }
     
-    public void endgame()
-    {
-        finish = true;
-    }
+
 
     void Update()
     {
         if (finish == false)
         {
             scoreText.text = (240 - player.position.x).ToString("0");   
-        }
-        
+        }        
     }
 }

@@ -4,15 +4,14 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Totalscorefinish : MonoBehaviour
+public class losescore : MonoBehaviour
 {
     public Text finalscore;
     public score GetScore;
     public string tmp;
 
     void Update()
-    {  
-       tmp = GetScore.returnfinalscore();
-       finalscore.text = tmp;
+    {
+        finalscore.text = GetScore.returnfinalscore();        
     }
 }
