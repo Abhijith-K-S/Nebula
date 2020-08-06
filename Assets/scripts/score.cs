@@ -17,6 +17,11 @@ public class score : MonoBehaviour
             msg = scoreText.text;
             return msg;
     }
+
+    public void gameend()
+    {
+        finish = true;
+    }
     
 
 

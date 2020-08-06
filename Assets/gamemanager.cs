@@ -9,10 +9,12 @@ public class gamemanager : MonoBehaviour
 
     public GameObject complete;
     public GameObject over;
+    public score TheEnd;
 
     public void win()
     {
         complete.SetActive(true);
+        TheEnd.gameend();
     }
 
     public void gameover()
@@ -24,8 +26,5 @@ public class gamemanager : MonoBehaviour
         }
      }
 
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }
