@@ -22,7 +22,8 @@ public class gamemanager : MonoBehaviour
         if(status == false)
         {
             status = true;
-            over.SetActive(true);            
+            over.SetActive(true);
+            TheEnd.gameend();
         }
      }
 

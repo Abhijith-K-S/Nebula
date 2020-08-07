@@ -21,8 +21,7 @@ public class score : MonoBehaviour
     public void gameend()
     {
         finish = true;
-    }
-    
+    }  
 
 
     void Update()
