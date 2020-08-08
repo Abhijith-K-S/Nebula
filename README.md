@@ -1,5 +1,5 @@
 # Nebula
  A simple unity based videogame
  
-#Screeshots
- ![](screenshots/UI.jpg)
+# Screeshots
+ ![](Screenshots/UI.jpg)
