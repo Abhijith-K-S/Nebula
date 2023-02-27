@@ -1,6 +1,6 @@
 # Nebula
- A simple unity based videogame
+ A simple runner videogame built using the Unity game engine
  
-# Screeshots
+# Screenshots
  ![](Screenshots/UI.jpg) 
  ![](Screenshots/gameplay.jpg)
